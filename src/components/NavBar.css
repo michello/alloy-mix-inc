@@ -1,0 +1,35 @@
+.navbar {
+  font-weight: bold;
+  text-transform: uppercase;
+  position: fixed;
+}
+
+.navbar-side {
+  display: flex;
+}
+
+.solid {
+  z-index: 4;
+  background:#8d8d92;
+  width: 100%;
+  position:fixed;
+  box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,.1),
+              0 0.9375rem 1.40625rem rgba(90,97,105,.1),
+              0 0.25rem 0.53125rem rgba(90,97,105,.12),
+              0 0.125rem 0.1875rem rgba(90,97,105,.1);
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #005997;
+}
+
+.clear {
+  background: none;
+  border: none;
+  width: 100%;
+  position:fixed;
+}

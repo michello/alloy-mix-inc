@@ -5,9 +5,93 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(125deg, rgb(255, 255, 255), rgb(243, 243, 243) 41%, rgb(237, 237, 237) 0px, rgb(255, 255, 255));
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.hero {
+  width: 100vw;
+  height: 60vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+
+  background-image: url('img/hero.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero h1, h4 {
+  color: #fff;
+}
+
+.hero h1 {
+  margin-right: 0.5em;
+  border: none;
+  padding-left: none;
+}
+
+h1 {
+  border-left: 0.25em solid #005997;
+  padding-left: 0.25em;
+}
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+  background: rgba(0,0,0,0.4);
+}
+
+/* .card { width: 20rem;} */
+.card-title {
+  color: black;
+}
+
+.align-left {
+  text-align: left;
+  border-left: 2px solid;
+  padding-left: 0.5em;
+}
+
+.container {
+  padding-top: 4em;
+  padding-bottom: 4em;
+  min-height: 500px;
+  overflow: hidden;
+}
+
+.side-image {
+  position: relative;
+  z-index: 1;
+  border-radius: .25rem;
+  width: 50%;
+  box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,.1), 0 0.9375rem 1.40625rem rgba(90,97,105,.1), 0 0.25rem 0.53125rem rgba(90,97,105,.12), 0 0.125rem 0.1875rem rgba(90,97,105,.1);
+}
+
+.side-image-two {
+  position: relative;
+  z-index: 3;
+  border-radius: .25rem;
+  width: 75%;
+  margin-left: 8em;
+  margin-top: -12em;
+  box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,.1), 0 0.9375rem 1.40625rem rgba(90,97,105,.1), 0 0.25rem 0.53125rem rgba(90,97,105,.12), 0 0.125rem 0.1875rem rgba(90,97,105,.1);
+}
+
+.side-image-three {
+  position: relative;
+  z-index: 2;
+  border-radius: .25rem;
+  width: 50%;
+  margin-left: 19em;
+  margin-top: -12em;
+  box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,.1), 0 0.9375rem 1.40625rem rgba(90,97,105,.1), 0 0.25rem 0.53125rem rgba(90,97,105,.12), 0 0.125rem 0.1875rem rgba(90,97,105,.1);
 }

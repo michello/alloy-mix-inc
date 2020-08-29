@@ -1,0 +1,21 @@
+.invalid-content {
+  min-height: calc(100vh - 2.5rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+.invalid-content-header {
+  font-size: 8em;
+}
+
+/* nav a {
+  color: #005a96;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+} */

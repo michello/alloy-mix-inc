@@ -1,24 +1,27 @@
-import React, { Component } from 'react';
-import { HashRouter, Route, Link } from "react-router-dom";
+import React from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import BaseLayout from './BaseLayout';
+import routes from './routes';
 
-const Home = () => <div><h2>Home</h2></div>
-const About = () => <div><h2>About</h2></div>
-
-function App() {
-  return (
-    <HashRouter basename='/'>
-      <div>
-        <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-        </ul>
-        <hr />
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-      </div>
-    </HashRouter>
-  );
+class App extends React.Component {
+  render() {
+    return(
+      <BaseLayout>
+        <Switch>
+        {routes.map(route => (
+          <Route
+            key={route.path}
+            exact path={route.path}
+            render={(props) => (
+              <route.component {...props}/>
+            )
+          }/>
+        ))}
+        </Switch>
+      </BaseLayout>
+      
+    )
+  }
 }
 
 export default App;
-

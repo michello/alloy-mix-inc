@@ -1,14 +1,18 @@
 # alloy-mix-inc
-a site for a local metalworking business
+a site for a local metalworking business. built with react, shards react and ❤️
 
 ## to do (non dev)
-- [ ] look into how existing construction / metalwork websites look like
-- [ ] come up with a design
-- [ ] figure out how SEO works
+- [x] Look into how existing construction / metalwork websites look like
+- [ ] Come up with a design
+- [ ] Figure out how SEO works
+- [ ] Think of the copy for the site
+- [ ] Compile all the projects papa has worked on
+  * This involves pictures and details about the project
+  * Details: how long project is, what the was, where the project was
 
 ## to do (dev)
 - [x] Set up ReactJS
-- [ ] Integrate with [ant ui](https://ant.design/docs/react/use-with-create-react-app)
+- [x] Integrate with [ant ui](https://ant.design/docs/react/use-with-create-react-app)
 - [ ] Come up with project structure and components
 - [ ] Create pages
   - [ ] Homepage (hero, details, testimonial, contact)
@@ -36,3 +40,10 @@ a site for a local metalworking business
 ## resources
 - [Construction website examples](https://contractorgorilla.com/top-construction-websites-for-2019/)
 - [Alloy Mix Inc content](https://jwiz.com/jewish/alloy-mix-inc-76712.html)
+
+## brand colors
+`#36413E`: Outer Space Crayola
+`#5D5E60`: Davys Gray
+`#8D8D92`: Taupe Gray
+`#FCFFEB`: Ivory
+`#D7D6D6`: Light Gray

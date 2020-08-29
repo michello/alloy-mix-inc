@@ -1,0 +1,14 @@
+.alloy-card-row {
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.alloy-content {
+  text-align: justify;
+}
+
+.alloy-button {
+  background-color: #005997;
+}
+
