@@ -1,13 +1,14 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { Redirect, Route, Switch, useLocation } from 'react-router-dom'
 import BaseLayout from './BaseLayout';
 import routes from './routes';
 
-class App extends React.Component {
-  render() {
-    return(
-      <BaseLayout>
-        <Switch>
+const App = () => {
+  const { pathname } = useLocation();
+  return(
+    <BaseLayout>
+      <Switch>
+        <Redirect from="/:url*(/+)" to={pathname.slice(0, -1)} />
         {routes.map(route => (
           <Route
             key={route.path}
@@ -17,11 +18,9 @@ class App extends React.Component {
             )
           }/>
         ))}
-        </Switch>
-      </BaseLayout>
-      
-    )
-  }
+      </Switch>
+    </BaseLayout>
+  )
 }
 
 export default App;
