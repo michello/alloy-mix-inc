@@ -5,17 +5,32 @@ import { Link } from "react-router-dom"
 export default () => (
   <>
   <div className="hero">
-    <h1>Alloy Mix Inc</h1>
-    <h4 className="align-left">Refurnishing Solutions for<br/>Your Everyday Needs</h4>
+    <h1>Alloy Mix Inc<br/>
+    <h4>
+      General contractor, home improvement,<br/>
+      remodeling contractor, house renovation contractor
+    </h4>
+    </h1>
   </div>
 
   <div className="container lead">
     <div className="row alloy-row">
       <div className="col-md-4 alloy-content">
-        <h1>Need a fix?</h1>
-        <span></span>
-        Count on us to help you complete or start your home refurnishing projects.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et odio id quam gravida sagittis. Curabitur bibendum tellus in ipsum congue, sit amet tempor tortor scelerisque. Nullam lacinia, libero fermentum blandit ultrices, ex eros tincidunt elit, venenatis molestie mi turpis eu nisi. Duis consequat pulvinar orci sed molestie. Ut non tincidunt diam. Curabitur molestie porta rutrum. Mauris et blandit purus. Praesent ac nisl ac ipsum sollicitudin porttitor id vitae nibh. Pellentesque dignissim vitae eros quis volutpat. Donec ultricies risus lectus. Suspendisse condimentum commodo turpis et pharetra. Aenean luctus diam erat, sit amet aliquet lacus sagittis sit amet. 
+        <h1>
+          Alloy
+        </h1>
+        <span>
+          /ˈaˌloi/
+        </span>
+        <p>
+          Brass, bronze, and stainless steel. What do those have in common? They’re alloys, and they can be found everywhere, from your cars to homes to wrist watches. Just as how alloys are used for everything, Alloy Mix Inc. is the only solution to your home improvement needs. 
+        </p>
+        <p>
+          If you can dream up a better vision for your home, we can create it. We have completed various internal and external home remodeling and home renovation projects. We handle everything from bathroom and kitchen renovations to creating room dividers. We also restore flooring, railings, ceilings, fences, gates, and more. 
+        </p>
+        <p>
+          And a bit more about us: we are a general contractor company that has served the New York City area for more than a decade. That’s over 10 years of satisfied customer service. So you know you can count on us to help you maintain, repair, and restore your home. Trust in Alloy Mix Inc.
+        </p>
       </div>
       <div className="col-md-6">
         <img className="side-image" src={construction} alt="side image"/>
