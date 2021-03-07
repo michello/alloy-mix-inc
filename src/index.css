@@ -54,7 +54,6 @@ h2 {
   background: rgba(0,0,0,0.4);
 }
 
-/* .card { width: 20rem;} */
 .card-title {
   color: black;
 }
@@ -72,9 +71,28 @@ h2 {
   overflow: hidden;
 }
 
-.side-image {
+.side-image, .side-image-right {
+  margin-bottom: 1.75rem;
   z-index: 3;
   border-radius: .25rem;
   width: 75%;
   box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,.1), 0 0.9375rem 1.40625rem rgba(90,97,105,.1), 0 0.25rem 0.53125rem rgba(90,97,105,.12), 0 0.125rem 0.1875rem rgba(90,97,105,.1);
+}
+
+.side-image-right {
+  margin-left: 25%;
+}
+
+.highlight {
+  background: #005997;
+  font-weight: bolder;
+  color: #fff;
+  padding: 3px;
+  font-style: italic;
+}
+
+.emphasis {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: bold;
 }
