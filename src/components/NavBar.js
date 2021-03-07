@@ -1,5 +1,5 @@
 import React from 'react'
-import { HashRouter, Route, Link } from "react-router-dom"
+import { Link } from "react-router-dom"
 import './NavBar.css'
 import {
   Navbar,

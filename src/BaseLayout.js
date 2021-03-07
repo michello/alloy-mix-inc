@@ -26,7 +26,6 @@ class BaseLayout extends React.Component {
   render = () => {
     return(
       <div onScroll={ this.handleScrollEvent }>
-        
         <NavBar theme={ this.state.navBarTheme } />
         { this.children }
         <Footer/>
@@ -36,3 +35,4 @@ class BaseLayout extends React.Component {
 }
 
 export default BaseLayout;
+

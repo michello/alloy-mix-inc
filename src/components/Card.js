@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/Card.css'
+import { Link } from "react-router-dom"
 
 const Card = ({imageURL, altText, title, text, link}) => {
   return(
@@ -10,9 +11,9 @@ const Card = ({imageURL, altText, title, text, link}) => {
           {title}
         </h4>
         <p className="card-item">
-          <a href={link} className="btn btn-primary">
+          <Link exact to={link} className="btn btn-primary">
             More &rarr;
-          </a>
+          </Link>
         </p>
       </div>
     </div>  

@@ -1,6 +1,5 @@
 import Home from "./pages/Home"
 import Projects from "./pages/Projects"
-import Project from "./pages/projects/Project"
 import Invalid from "./pages/InvalidPage"
 
 /** all of papa's projects **/
@@ -21,11 +20,11 @@ export default [
     component: Invalid
   },
   {
-    path: '/projects/Gate',
+    path: '/projects/gate',
     component: GateProject
   },
   {
-    path: '/projects/Bathroom',
+    path: '/projects/bathroom',
     component: BathroomProject
   },
   {

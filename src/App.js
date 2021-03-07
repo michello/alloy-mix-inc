@@ -1,23 +1,15 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom'
+import { Route, HashRouter } from 'react-router-dom'
 import BaseLayout from './BaseLayout';
 import routes from './routes';
 
+import Home from './pages/Home';
+import Projects from './pages/Projects';
+import InvalidPage from './pages/InvalidPage';
+
 const App = () => {
   return(
-    <BaseLayout>
-      <Switch>
-        {routes.map(route => (
-          <Route
-            key={route.path}
-            exact path={route.path}
-            render={(props) => (
-              <route.component {...props}/>
-            )
-          }/>
-        ))}
-      </Switch>
-    </BaseLayout>
+    <BaseLayout/>
   )
 }
 

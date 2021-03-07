@@ -1,6 +1,13 @@
 # alloy-mix-inc
 a site for a local metalworking business. built with react, shards react and ❤️
 
+## commands
+* to start app locally: `npm start`
+* after making changes, run: `npm run deploy`
+```
+npm run deploy
+```
+
 ## to do (non dev)
 - [x] Look into how existing construction / metalwork websites look like
 - [ ] Come up with a design
