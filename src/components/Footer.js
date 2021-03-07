@@ -10,8 +10,9 @@ const Footer = () => {
             <h1>Alloy Mix Inc</h1>
           </div>
           <div className="col-md-4">
-            <p>412 39th street<br/>
-            Brooklyn, NY 11232
+            <p>
+              4401 1st Avenue<br/>
+              Brooklyn, NY 11232
             </p>
           </div>
           <div className="col-md-4">
