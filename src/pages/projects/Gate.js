@@ -1,6 +1,5 @@
 import React from 'react';
 import Hero from '../../components/Hero';
-import Card from '../../components/Card';
 import ProjectCard from '../../components/ProjectCard';
 import { Breadcrumb, BreadcrumbItem, timeoutsShape } from "shards-react";
 
@@ -15,7 +14,10 @@ import Gate_2_Picture_1 from '../../img/projects/gates/Gate_2/122570958_68947080
 const GateProject = () => {
     return(
         <>
-            <Hero page="project" title="Gate Installation and Design"/>
+            <Hero page="project"
+                title="Gate Installation and Design"
+                headerStyle={{backgroundColor: '#fff'}}
+            />
             <div className="container lead">
                 <div className="row alloy-card-row">
                     <div className="col-md-4">

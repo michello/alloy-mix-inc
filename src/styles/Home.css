@@ -1,0 +1,9 @@
+.card-img-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.view-more-link {
+    color: #005997;
+}

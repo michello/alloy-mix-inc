@@ -16,10 +16,12 @@ import InvalidPage from './pages/InvalidPage';
 
 import BathroomProject from './pages/projects/Bathroom';
 import GateProject from './pages/projects/Gate';
+import FlooringProject from './pages/projects/Flooring';
+import KitchenProject from './pages/projects/Kitchen';
+import LandscapingProject from './pages/projects/Landscaping';
 
 import { Route } from 'react-router-dom'
 import BaseLayout from './BaseLayout';
-import routes from './routes';
 
 const Routes = () => {
   return(
@@ -30,6 +32,9 @@ const Routes = () => {
       {/* project page routing */}
       <Route exact path="/projects/bathroom" component={BathroomProject} />
       <Route exact path="/projects/gate" component={GateProject} />
+      <Route exact path="/projects/flooring" component={FlooringProject} />
+      <Route exact path="/projects/kitchen" component={KitchenProject} />
+      <Route exact path="/projects/landscaping" component={LandscapingProject} />
 
       {/* <Route path="*" component={InvalidPage} /> */}
     </>

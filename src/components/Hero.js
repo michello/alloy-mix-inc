@@ -1,7 +1,7 @@
 import React from 'react'
 import project from '../img/project.jpg'; 
 
-const Hero = ({page, title}) => {
+const Hero = ({page, title, headerStyle={}}) => {
   const style = {
     width: "100vw",
     height: "60vh",
@@ -21,7 +21,7 @@ const Hero = ({page, title}) => {
 
   return(
     <div style={ style }>
-      <h1>{title}</h1>
+      <h1 style={headerStyle}>{title}</h1>
     </div>
   )
 }

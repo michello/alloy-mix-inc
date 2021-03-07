@@ -1,8 +1,6 @@
 import React from 'react';
 import Hero from '../../components/Hero';
-import Card from '../../components/Card';
 import ProjectCard from '../../components/ProjectCard';
-import { Breadcrumb, BreadcrumbItem, timeoutsShape } from "shards-react";
 
 import '../../styles/Project.css';
 
@@ -15,7 +13,8 @@ import Bathroom_2_Picture_2 from '../../img/projects/bathroom/IMG_20190423_16502
 const BathroomProject = () => {
     return(
         <>
-            <Hero page="project" title="Bathroom"/>
+            <Hero
+                page="project" title="Bathroom" headerStyle={{backgroundColor: '#fff'}}/>
             <div className="container lead">
                 <div className="row alloy-card-row">
                     <div className="col-md-4">

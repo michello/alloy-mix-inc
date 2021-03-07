@@ -2,6 +2,12 @@ import React from 'react';
 import construction from '../img/construction.jpg';
 import { Link } from "react-router-dom"
 
+import Gate_1_Picture_1 from '../img/projects/gates/Gate_1/IMG_20200215_125014.jpg';
+import Kitchen_2_Picture_1 from '../img/projects/kitchen/Fume Hood/IMG_20190819_163717.jpg';
+import Landscaping_1_Picture_1 from '../img/projects/landscaping/IMG_20200620_143407.jpg';
+
+import '../styles/Home.css';
+
 const Home = () => {
   return(
     <>
@@ -15,13 +21,13 @@ const Home = () => {
       </div>
       <div className="container lead">
         <div className="row alloy-row">
-          <div className="col-md-4 alloy-content">
+          <div className="col-md-6 alloy-content">
             <h1>
               Alloy
             </h1>
-            <span>
+            <h2>
               /ˈaˌloi/
-            </span>
+            </h2>
             <p>
               Brass, bronze, and stainless steel. What do those have in common? They’re alloys, and they can be found everywhere, from your cars to homes to wrist watches. Just as how alloys are used for everything, Alloy Mix Inc. is the only solution to your home improvement needs. 
             </p>
@@ -33,9 +39,9 @@ const Home = () => {
             </p>
           </div>
           <div className="col-md-6">
-            <img className="side-image" src={construction} alt="side image"/>
+            {/* <img className="side-image" src={construction} alt="side image"/> */}
             <img className="side-image-two" src={construction} alt="side image"/>
-            <img className="side-image-three" src={construction} alt="side image"/>
+            {/* <img className="side-image-three" src={construction} alt="side image"/> */}
           </div>
         </div>
       </div>
@@ -45,38 +51,32 @@ const Home = () => {
           Check out our recent projects.
         </h1>
         <span>
-          <Link to="/projects" className="nav-link">
+          <Link to="/projects" className="view-more-link">
             Click here to view more.
           </Link>
         </span>
         <div className="row">
           <div className="col-md-4">
             <div className="card">
-              <img className="card-img-top" src="https://www.traditionalbuilding.com/.image/t_share/MTUzMDcwMzY2MTQ5ODQ2NjQ4/tb-metalwork-400.jpg" alt="Card image cap"/>
-              <div className="card-body">
-                <h4 className="card-title">Sample Card Title</h4>
-                <p className="card-text">He seems sinking under the evidence could not only grieve and a visit. The father is to bless and placed in his length hid...</p>
-                <a href="#" className="btn btn-primary">Tell me more &rarr;</a>
+              <img className="card-img" src={Gate_1_Picture_1} alt="Gate Installation & Design"/>
+              <div className="card-img-overlay">
+                <h4 className="card-title">Gate Installation & Design</h4>
               </div>
             </div>
           </div>
           <div className="col-md-4">
             <div className="card">
-              <img className="card-img-top" src="https://www.traditionalbuilding.com/.image/t_share/MTUzMDcwMzY2MTQ5ODQ2NjQ4/tb-metalwork-400.jpg" alt="Card image cap"/>
-              <div className="card-body">
-                <h4 className="card-title">Sample Card Title</h4>
-                <p className="card-text">He seems sinking under the evidence could not only grieve and a visit. The father is to bless and placed in his length hid...</p>
-                <a href="#" className="btn btn-primary">Tell me more &rarr;</a>
+              <img className="card-img" src={Kitchen_2_Picture_1} alt="Card image cap"/>
+              <div className="card-img-overlay">
+                <h4 className="card-title">Kitchen - Fume Hood</h4>
               </div>
             </div>
           </div>
           <div className="col-md-4">
             <div className="card">
-              <img className="card-img-top" src="https://www.traditionalbuilding.com/.image/t_share/MTUzMDcwMzY2MTQ5ODQ2NjQ4/tb-metalwork-400.jpg" alt="Card image cap"/>
-              <div className="card-body">
-                <h4 className="card-title">Sample Card Title</h4>
-                <p className="card-text">He seems sinking under the evidence could not only grieve and a visit. The father is to bless and placed in his length hid...</p>
-                <a href="#" className="btn btn-primary">Tell me more &rarr;</a>
+              <img className="card-img" src={Landscaping_1_Picture_1} alt="Card image cap"/>
+              <div className="card-img-overlay">
+                <h4 className="card-title">Landscaping</h4>
               </div>
             </div>
           </div>
