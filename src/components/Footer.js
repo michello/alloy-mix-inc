@@ -2,12 +2,13 @@ import React from 'react'
 import './Footer.css'
 
 const Footer = () => {
+  const fontColor = { color: '#fff' }
   return(
     <div className="footer">
       <div className="container">
         <div className="row">
           <div className="col-md-4">
-            <h1>Alloy Mix Inc</h1>
+            <h1 style={fontColor}>Alloy Mix Inc</h1>
           </div>
           <div className="col-md-4">
             <p>
