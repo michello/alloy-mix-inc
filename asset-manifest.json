@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/alloy-mix-inc/static/css/main.3facade7.chunk.css",
+    "main.js": "/alloy-mix-inc/static/js/main.2d682edf.chunk.js",
+    "main.js.map": "/alloy-mix-inc/static/js/main.2d682edf.chunk.js.map",
+    "runtime-main.js": "/alloy-mix-inc/static/js/runtime-main.30480eba.js",
+    "runtime-main.js.map": "/alloy-mix-inc/static/js/runtime-main.30480eba.js.map",
+    "static/css/2.0199a73c.chunk.css": "/alloy-mix-inc/static/css/2.0199a73c.chunk.css",
+    "static/js/2.43c15799.chunk.js": "/alloy-mix-inc/static/js/2.43c15799.chunk.js",
+    "static/js/2.43c15799.chunk.js.map": "/alloy-mix-inc/static/js/2.43c15799.chunk.js.map",
+    "index.html": "/alloy-mix-inc/index.html",
+    "static/css/2.0199a73c.chunk.css.map": "/alloy-mix-inc/static/css/2.0199a73c.chunk.css.map",
+    "static/css/main.3facade7.chunk.css.map": "/alloy-mix-inc/static/css/main.3facade7.chunk.css.map",
+    "static/js/2.43c15799.chunk.js.LICENSE.txt": "/alloy-mix-inc/static/js/2.43c15799.chunk.js.LICENSE.txt",
+    "static/media/122570958_689470808661742_1983434360305736003_n.1bbe95ee.jpg": "/alloy-mix-inc/static/media/122570958_689470808661742_1983434360305736003_n.1bbe95ee.jpg",
+    "static/media/IMG_20190423_151450.4287c42b.jpg": "/alloy-mix-inc/static/media/IMG_20190423_151450.4287c42b.jpg",
+    "static/media/IMG_20190423_151502.f9aa2d99.jpg": "/alloy-mix-inc/static/media/IMG_20190423_151502.f9aa2d99.jpg",
+    "static/media/IMG_20190423_165008.69df0d71.jpg": "/alloy-mix-inc/static/media/IMG_20190423_165008.69df0d71.jpg",
+    "static/media/IMG_20190423_165029.27415d12.jpg": "/alloy-mix-inc/static/media/IMG_20190423_165029.27415d12.jpg",
+    "static/media/IMG_20200215_125014.403f942d.jpg": "/alloy-mix-inc/static/media/IMG_20200215_125014.403f942d.jpg",
+    "static/media/IMG_20200223_151211.8af3dce7.jpg": "/alloy-mix-inc/static/media/IMG_20200223_151211.8af3dce7.jpg",
+    "static/media/IMG_20200223_153918.0dcbec14.jpg": "/alloy-mix-inc/static/media/IMG_20200223_153918.0dcbec14.jpg",
+    "static/media/construction.961a5432.jpg": "/alloy-mix-inc/static/media/construction.961a5432.jpg",
+    "static/media/index.css": "/alloy-mix-inc/static/media/hero.6112a691.jpg",
+    "static/media/project.7923e05d.jpg": "/alloy-mix-inc/static/media/project.7923e05d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.30480eba.js",
+    "static/css/2.0199a73c.chunk.css",
+    "static/js/2.43c15799.chunk.js",
+    "static/css/main.3facade7.chunk.css",
+    "static/js/main.2d682edf.chunk.js"
+  ]
+}
