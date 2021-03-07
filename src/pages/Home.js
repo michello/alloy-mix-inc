@@ -39,9 +39,7 @@ const Home = () => {
             </p>
           </div>
           <div className="col-md-6">
-            {/* <img className="side-image" src={construction} alt="side image"/> */}
-            <img className="side-image-two" src={construction} alt="side image"/>
-            {/* <img className="side-image-three" src={construction} alt="side image"/> */}
+            <img className="side-image" src={construction} alt="side image"/>
           </div>
         </div>
       </div>

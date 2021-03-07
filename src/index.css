@@ -73,26 +73,8 @@ h2 {
 }
 
 .side-image {
-  position: relative;
-  z-index: 1;
-  border-radius: .25rem;
-  width: 50%;
-  box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,.1), 0 0.9375rem 1.40625rem rgba(90,97,105,.1), 0 0.25rem 0.53125rem rgba(90,97,105,.12), 0 0.125rem 0.1875rem rgba(90,97,105,.1);
-}
-
-.side-image-two {
   z-index: 3;
   border-radius: .25rem;
   width: 75%;
-  box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,.1), 0 0.9375rem 1.40625rem rgba(90,97,105,.1), 0 0.25rem 0.53125rem rgba(90,97,105,.12), 0 0.125rem 0.1875rem rgba(90,97,105,.1);
-}
-
-.side-image-three {
-  position: relative;
-  z-index: 2;
-  border-radius: .25rem;
-  width: 50%;
-  margin-left: 19em;
-  margin-top: -12em;
   box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,.1), 0 0.9375rem 1.40625rem rgba(90,97,105,.1), 0 0.25rem 0.53125rem rgba(90,97,105,.12), 0 0.125rem 0.1875rem rgba(90,97,105,.1);
 }
