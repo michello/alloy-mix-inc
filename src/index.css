@@ -58,6 +58,10 @@ h2 {
   color: black;
 }
 
+.card-img-overlay a:hover {
+  color: #fff;
+}
+
 .align-left {
   text-align: left;
   border-left: 2px solid;

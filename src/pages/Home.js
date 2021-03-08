@@ -76,7 +76,11 @@ const Home = () => {
             <div className="homepage card">
               <img className="card-img" src={Gate_1_Picture_1} alt="Gate Installation & Design"/>
               <div className="card-img-overlay">
-                <h4 className="card-title">Gate Installation & Design</h4>
+                <h4 className="card-title">
+                  <Link to="/projects/gate">
+                    Gate Installation & Design
+                  </Link>
+                </h4>
               </div>
             </div>
           </div>
@@ -84,7 +88,11 @@ const Home = () => {
             <div className="homepage card">
               <img className="card-img" src={Kitchen_2_Picture_1} alt="Card image cap"/>
               <div className="card-img-overlay">
-                <h4 className="card-title">Kitchen - Fume Hood</h4>
+                <h4 className="card-title">
+                  <Link to="/projects/kitchen">
+                    Kitchen - Fume Hood
+                  </Link>
+                </h4>
               </div>
             </div>
           </div>
@@ -92,7 +100,11 @@ const Home = () => {
             <div className="homepage card">
               <img className="card-img" src={ShelvesClosets_1_Picture_1} alt="Shelves and Closets"/>
               <div className="card-img-overlay">
-                <h4 className="card-title">Shelves and Closets</h4>
+                <h4 className="card-title">
+                  <Link to="/projects/shelves-and-closets">
+                    Shelves and Closets
+                  </Link>
+                </h4>
               </div>
             </div>
           </div>
