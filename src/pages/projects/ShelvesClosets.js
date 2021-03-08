@@ -6,9 +6,9 @@ import { Breadcrumb, BreadcrumbItem, timeoutsShape } from "shards-react";
 import '../../styles/Project.css';
 
 /* pictures of projects*/
-import ShelvesClosets_1_Picture_1 from '../../img/projects/shelves_closets/IMG_20190107_145728-min.jpg';
-import ShelvesClosets_1_Picture_2 from '../../img/projects/shelves_closets/IMG_20181220_083807-min.jpg';
-import ShelvesClosets_1_Picture_3 from '../../img/projects/shelves_closets/IMG_20181218_132611-min.jpg';
+import ShelvesClosets_1_Picture_1 from '../../img/projects/shelves_closets/ShelvesClosets_1_Image_1.jpeg';
+import ShelvesClosets_1_Picture_2 from '../../img/projects/shelves_closets/ShelvesClosets_1_Image_2.jpeg';
+import ShelvesClosets_1_Picture_3 from '../../img/projects/shelves_closets/ShelvesClosets_1_Image_3.jpeg';
 
 const ShelvesClosetsProject = () => {
     return(

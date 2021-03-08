@@ -6,8 +6,8 @@ import { Breadcrumb, BreadcrumbItem, timeoutsShape } from "shards-react";
 import '../../styles/Project.css';
 
 /* pictures of projects*/
-import Landscaping_1_Picture_1 from '../../img/projects/landscaping/IMG_20200620_143407.jpg';
-import Landscaping_1_Picture_2 from '../../img/projects/landscaping/IMG_20200617_132439.jpg';
+import Landscaping_1_Picture_1 from '../../img/projects/landscaping/Landscaping_1_Image_1.jpeg';
+import Landscaping_1_Picture_2 from '../../img/projects/landscaping/Landscaping_1_Image_2.jpeg';
 
 const LandscapingProject = () => {
     return(

@@ -5,10 +5,10 @@ import Card from '../components/Card';
 /* project pictures for thumbnails */
 import GatePicture from '../img/projects/gates/Gate_2/Gate_2_Picture_1.jpeg';
 import BathroomPicture from '../img/projects/bathroom/Bathroom_1_Picture_4.jpeg';
-import FlooringPicture from '../img/projects/flooring/flooring_1/IMG_20181107_154323.jpg';
-import KitchenPicture from '../img/projects/kitchen/Kitchen 1/IMG_20181205_174636.jpg';
-import LandscapingPicture from '../img/projects/landscaping/IMG_20200620_143407.jpg';
-import ShelvesClosetsPicture from '../img/projects/shelves_closets/IMG_20190107_145728-min.jpg'
+import FlooringPicture from '../img/projects/flooring/flooring_1/Flooring_1_Image_1.jpeg';
+import KitchenPicture from '../img/projects/kitchen/Kitchen 1/Kitchen_1_Image_1.jpeg';
+import LandscapingPicture from '../img/projects/landscaping/Landscaping_1_Image_1.jpeg';
+import ShelvesClosetsPicture from '../img/projects/shelves_closets/ShelvesClosets_1_Image_1.jpeg'
 
 const Projects = () => (
   <div>

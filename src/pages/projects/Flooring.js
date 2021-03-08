@@ -6,12 +6,12 @@ import '../../styles/Project.css';
 
 /* pictures of projects*/
 /* project 1 */
-import Flooring_1_Picture_1 from '../../img/projects/flooring/flooring_1/IMG_20181107_154323.jpg';
-import Flooring_1_Picture_2 from '../../img/projects/flooring/flooring_1/IMG_20181107_154927.jpg';
-import Flooring_1_Picture_3 from '../../img/projects/flooring/flooring_1/IMG_20181105_165519.jpg'
+import Flooring_1_Picture_1 from '../../img/projects/flooring/flooring_1/Flooring_1_Image_1.jpeg';
+import Flooring_1_Picture_2 from '../../img/projects/flooring/flooring_1/Flooring_1_Image_2.jpeg';
+import Flooring_1_Picture_3 from '../../img/projects/flooring/flooring_1/Flooring_1_Image_3.jpeg';
 /* project 2 */
-import Flooring_2_Picture_1 from '../../img/projects/flooring/flooring_2/IMG_20190419_120756.jpg';
-import Flooring_2_Picture_2 from '../../img/projects/flooring/flooring_2/IMG_20190419_164219.jpg';
+import Flooring_2_Picture_1 from '../../img/projects/flooring/flooring_2/Flooring_2_Image_1.jpeg';
+import Flooring_2_Picture_2 from '../../img/projects/flooring/flooring_2/Flooring_2_Image_2.jpeg';
 
 const BathroomProject = () => {
     return(

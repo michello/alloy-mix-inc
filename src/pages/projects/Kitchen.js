@@ -6,15 +6,15 @@ import '../../styles/Project.css';
 
 /* pictures of projects*/
 /* project 1 */
-import Kitchen_1_Picture_1 from '../../img/projects/kitchen/Kitchen 1/IMG_20181205_174630.jpg';
-import Kitchen_1_Picture_2 from '../../img/projects/kitchen/Kitchen 1/IMG_20181205_174636.jpg';
-import Kitchen_1_Picture_3 from '../../img/projects/kitchen/Kitchen 1/IMG_20181201_200612.jpg';
-import Kitchen_1_Picture_4 from '../../img/projects/kitchen/Kitchen 1/IMG_20181113_164256.jpg';
-import Kitchen_1_Picture_5 from '../../img/projects/kitchen/Kitchen 1/IMG_20181109_131312.jpg';
+import Kitchen_1_Picture_1 from '../../img/projects/kitchen/Kitchen 1/Kitchen_1_Image_1.jpeg';
+import Kitchen_1_Picture_2 from '../../img/projects/kitchen/Kitchen 1/Kitchen_1_Image_2.jpeg';
+import Kitchen_1_Picture_3 from '../../img/projects/kitchen/Kitchen 1/Kitchen_1_Image_3.jpeg';
+import Kitchen_1_Picture_4 from '../../img/projects/kitchen/Kitchen 1/Kitchen_1_Image_4.jpeg';
+import Kitchen_1_Picture_5 from '../../img/projects/kitchen/Kitchen 1/Kitchen_1_Image_5.jpeg';
 
 /* project 2 */
-import Kitchen_2_Picture_1 from '../../img/projects/kitchen/Fume Hood/IMG_20190819_163717.jpg';
-import Kitchen_2_Picture_2 from '../../img/projects/kitchen/Fume Hood/IMG_20190802_121451.jpg';
+import Kitchen_2_Picture_1 from '../../img/projects/kitchen/Fume Hood/Fume_Hood_2_Image_1.jpeg';
+import Kitchen_2_Picture_2 from '../../img/projects/kitchen/Fume Hood/Fume_Hood_2_Image_1.jpeg';
 
 const KitchenProject = () => {
     return(

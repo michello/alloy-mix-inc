@@ -1,11 +1,12 @@
 import React from 'react';
-import construction from '../img/construction.jpg';
+
 import { Link } from "react-router-dom"
 
 import ContructionPerson from '../img/construction-person.jpg';
+import Construction from '../img/construction.jpg';
 import Gate_1_Picture_1 from '../img/projects/gates/Gate_1/Gate_1_Picture_1.jpeg';
-import Kitchen_2_Picture_1 from '../img/projects/kitchen/Fume Hood/IMG_20190819_163717.jpg';
-import ShelvesClosets_1_Picture_1 from '../img/projects/shelves_closets/IMG_20190107_145728-min.jpg';
+import Kitchen_2_Picture_1 from '../img/projects/kitchen/Fume Hood/Fume_Hood_2_Image_1.jpeg';
+import ShelvesClosets_1_Picture_1 from '../img/projects/shelves_closets/ShelvesClosets_1_Image_1.jpeg';
 
 import '../styles/Home.css';
 
@@ -39,7 +40,7 @@ const Home = () => {
             
           </div>
           <div className="col-md-6">
-            <img className="side-image-right" src={construction} alt="side image"/>
+            <img className="side-image-right" src={Construction} alt="side image"/>
             <p className="alloy-content">
               And a bit more about us: we are a general contractor company that has served the New York City area for more than a decade.
             </p>
