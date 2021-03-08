@@ -8,6 +8,7 @@ a site for a local metalworking business. built with react, shards react and ❤
 
 ## brand colors
 <img src="./public/color_scheme.png">
+
 * `#36413E`: Outer Space Crayola
 * `#5D5E60`: Davys Gray
 * `#8D8D92`: Taupe Gray
