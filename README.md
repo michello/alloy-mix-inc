@@ -1,6 +1,12 @@
 # alloy-mix-inc
 a site for a local metalworking business. built with react, shards react and ❤️
 
+## to do
+- [ ] Resize photos
+- [ ] Finish adding the rest of the projects in
+- [ ] [Add a contact form](https://formspree.io/)
+- [ ] 
+
 ## commands
 * To set up application, run `npm install`
 * To start app locally, run `npm run start`
