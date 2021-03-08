@@ -49,7 +49,7 @@ const Home = () => {
           <div className="col-md-6">
             <img className="side-image-right" src={Construction} alt="side image"/>
             <p className="alloy-content">
-              And a bit more about us: we are a general contractor company that has served the New York City area for more than a decade.
+              And a bit more about us: we are a general contractor company that has served the <b className="highlight">New York City area</b> for more than a decade.
             </p>
             <p className="alloy-content">
               That’s <b className="highlight">over 10 years</b> of satisfied customer service! So you know you can count on us to help you maintain, repair, and restore your home.
