@@ -11,7 +11,7 @@ const Card = ({imageURL, altText, title, text, link}) => {
           {title}
         </h4>
         <p className="card-item">
-          <Link exact to={link} className="btn btn-primary">
+          <Link exact to={link} className="btn btn-primary card-btn">
             More &rarr;
           </Link>
         </p>

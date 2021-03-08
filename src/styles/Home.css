@@ -11,3 +11,8 @@
 .title {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.homepage.card {
+    height: 157px;
+    overflow: hidden;
+}

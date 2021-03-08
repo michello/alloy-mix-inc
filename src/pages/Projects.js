@@ -3,12 +3,12 @@ import '../index.css';
 import Card from '../components/Card';
 
 /* project pictures for thumbnails */
-import GatePicture from '../img/projects/gates/Gate_2/122570958_689470808661742_1983434360305736003_n.jpg';
-import BathroomPicture from '../img/projects/bathroom/IMG_20190423_165008.jpg';
+import GatePicture from '../img/projects/gates/Gate_2/Gate_2_Picture_1.jpeg';
+import BathroomPicture from '../img/projects/bathroom/Bathroom_1_Picture_4.jpeg';
 import FlooringPicture from '../img/projects/flooring/flooring_1/IMG_20181107_154323.jpg';
 import KitchenPicture from '../img/projects/kitchen/Kitchen 1/IMG_20181205_174636.jpg';
 import LandscapingPicture from '../img/projects/landscaping/IMG_20200620_143407.jpg';
-
+import ShelvesClosetsPicture from '../img/projects/shelves_closets/IMG_20190107_145728-min.jpg'
 
 const Projects = () => (
   <div>
@@ -54,14 +54,13 @@ const Projects = () => (
             title="Landscaping"
             link="/projects/landscaping"/>
         </div>
-        {/* <div className="col-md-4">
+        <div className="col-md-4">
           <Card
-            imageURL="https://www.traditionalbuilding.com/.image/t_share/MTUzMDcwMzY2MTQ5ODQ2NjQ4/tb-metalwork-400.jpg"
-            altText="Card image cap"
-            title="Sample Card Title"
-            text="He seems sinking under the evidence could not only grieve and a visit. The father is to bless and placed in his length hid..."
-            link="#"/>
-        </div> */}
+            imageURL={ShelvesClosetsPicture}
+            altText="Shelves and Closests"
+            title="Shelves and Closests"
+            link="/projects/shelves-and-closets"/>
+        </div>
       </div>
       {/* <div className="row alloy-card-row">
         <div className="col-md-4">

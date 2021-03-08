@@ -19,18 +19,14 @@ const LandscapingProject = () => {
             <div className="container lead">
                 <div className="row alloy-card-row">
                     <div className="col-md-6">
-                        <ProjectCard
-                            imageURL={Landscaping_1_Picture_1}
-                            altText="Landscaping"
-                            title="Landscaping"
-                            link="/projects/landscaping"
-                        />
-                    </div>
-                    <div className="col-md-6">
                         <h2>before</h2>
                         <img src={Landscaping_1_Picture_2} className="alloy-card-image"/>
-                        
                     </div>
+                    <div className="col-md-6">
+                        <h2>after</h2>
+                        <img src={Landscaping_1_Picture_1} className="alloy-card-image"/>
+                    </div>
+                    
                 </div>
             </div>
         </>

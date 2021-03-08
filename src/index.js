@@ -19,6 +19,7 @@ import GateProject from './pages/projects/Gate';
 import FlooringProject from './pages/projects/Flooring';
 import KitchenProject from './pages/projects/Kitchen';
 import LandscapingProject from './pages/projects/Landscaping';
+import ShelvesClosets from './pages/projects/ShelvesClosets';
 
 import { Route } from 'react-router-dom'
 import BaseLayout from './BaseLayout';
@@ -35,6 +36,8 @@ const Routes = () => {
       <Route exact path="/projects/flooring" component={FlooringProject} />
       <Route exact path="/projects/kitchen" component={KitchenProject} />
       <Route exact path="/projects/landscaping" component={LandscapingProject} />
+      <Route exact path="/projects/shelves-and-closets" component={ShelvesClosets} />
+      
 
       {/* <Route path="*" component={InvalidPage} /> */}
     </>

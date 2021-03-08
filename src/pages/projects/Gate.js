@@ -6,15 +6,17 @@ import { Breadcrumb, BreadcrumbItem, timeoutsShape } from "shards-react";
 import '../../styles/Project.css';
 
 /* pictures of projects*/
-import Gate_1_Picture_1 from '../../img/projects/gates/Gate_1/IMG_20200215_125014.jpg';
-import Gate_1_Picture_2 from '../../img/projects/gates/Gate_1/IMG_20200223_151211.jpg';
-import Gate_1_Picture_3 from '../../img/projects/gates/Gate_1/IMG_20200223_153918.jpg';
-import Gate_2_Picture_1 from '../../img/projects/gates/Gate_2/122570958_689470808661742_1983434360305736003_n.jpg';
+import Gate_1_Picture_1 from '../../img/projects/gates/Gate_1/Gate_1_Picture_1.jpeg';
+import Gate_1_Picture_2 from '../../img/projects/gates/Gate_1/Gate_1_Picture_2.jpeg';
+import Gate_1_Picture_3 from '../../img/projects/gates/Gate_1/Gate_1_Picture_3.jpeg';
+import Gate_2_Picture_1 from '../../img/projects/gates/Gate_2/Gate_2_Picture_1.jpeg';
 
 const GateProject = () => {
     return(
         <>
-            <Hero page="project"
+            <Hero
+             
+                page="project"
                 title="Gate Installation and Design"
                 headerStyle={{backgroundColor: '#fff'}}
             />

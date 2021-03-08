@@ -3,10 +3,9 @@ import construction from '../img/construction.jpg';
 import { Link } from "react-router-dom"
 
 import ContructionPerson from '../img/construction-person.jpg';
-import Gate_1_Picture_1 from '../img/projects/gates/Gate_1/IMG_20200215_125014.jpg';
+import Gate_1_Picture_1 from '../img/projects/gates/Gate_1/Gate_1_Picture_1.jpeg';
 import Kitchen_2_Picture_1 from '../img/projects/kitchen/Fume Hood/IMG_20190819_163717.jpg';
-import Landscaping_1_Picture_1 from '../img/projects/landscaping/IMG_20200620_143407.jpg';
-
+import ShelvesClosets_1_Picture_1 from '../img/projects/shelves_closets/IMG_20190107_145728-min.jpg';
 
 import '../styles/Home.css';
 
@@ -66,7 +65,7 @@ const Home = () => {
         </span>
         <div className="row">
           <div className="col-md-4">
-            <div className="card">
+            <div className="homepage card">
               <img className="card-img" src={Gate_1_Picture_1} alt="Gate Installation & Design"/>
               <div className="card-img-overlay">
                 <h4 className="card-title">Gate Installation & Design</h4>
@@ -74,7 +73,7 @@ const Home = () => {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="card">
+            <div className="homepage card">
               <img className="card-img" src={Kitchen_2_Picture_1} alt="Card image cap"/>
               <div className="card-img-overlay">
                 <h4 className="card-title">Kitchen - Fume Hood</h4>
@@ -82,10 +81,10 @@ const Home = () => {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="card">
-              <img className="card-img" src={Landscaping_1_Picture_1} alt="Card image cap"/>
+            <div className="homepage card">
+              <img className="card-img" src={ShelvesClosets_1_Picture_1} alt="Shelves and Closets"/>
               <div className="card-img-overlay">
-                <h4 className="card-title">Landscaping</h4>
+                <h4 className="card-title">Shelves and Closets</h4>
               </div>
             </div>
           </div>
