@@ -1,7 +1,9 @@
 import React from 'react';
 import Hero from '../../components/Hero';
 import ProjectCard from '../../components/ProjectCard';
-import { Breadcrumb, BreadcrumbItem, timeoutsShape } from "shards-react";
+import Navigation from '../../components/Navigation';
+
+import { Breadcrumb, BreadcrumbItem } from "shards-react";
 
 import '../../styles/Project.css';
 
@@ -14,6 +16,7 @@ import Gate_2_Picture_1 from '../../img/projects/gates/Gate_2/Gate_2_Picture_1.j
 import ProjectImage from "../../img/project.jpg"
 
 const GateProject = () => {
+
     return(
         <>
             <Hero
@@ -23,6 +26,11 @@ const GateProject = () => {
                 headerStyle={{backgroundColor: '#fff'}}
             />
             <div className="container lead">
+                <Navigation
+                    paths={[
+                        {url: "/projects", pageName: "Projects", isActive: false },
+                        {url: "/projects/gate", pageName: "Gate", isActive: true }
+                ]}/>
                 <div className="row alloy-card-row">
                     <div className="col-md-4">
                         <ProjectCard

@@ -27,7 +27,7 @@ a {
   pointer-events: none;
 }
 
-.btn-primary {
+.btn-primary, .btn.btn-primary {
   border-color: #005a96;
   background-color: #005a96;
 }

@@ -1,0 +1,19 @@
+
+.breadcrumb {
+    margin-bottom: 4rem;
+    background: none;
+}
+.breadcrumb-item.active a {
+    font-weight: bold;
+}
+
+.breadcrumb-item a {
+    color: #005997;
+}
+
+.navigate-item.breadcrumb-item+.breadcrumb-item::before {
+    float: left;
+    padding-right: .5rem;
+    color: #6c757d;
+    content: ">>";
+}

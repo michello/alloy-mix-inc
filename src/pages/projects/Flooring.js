@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from '../../components/Hero';
 import ProjectCard from '../../components/ProjectCard';
+import Navigation from '../../components/Navigation';
 
 import '../../styles/Project.css';
 
@@ -25,6 +26,11 @@ const BathroomProject = () => {
                 headerStyle={{backgroundColor: '#fff'}}
             />
             <div className="container lead">
+                <Navigation
+                    paths={[
+                        {url: "/projects", pageName: "Projects", isActive: false },
+                        {url: "/projects/flooring", pageName: "Flooring", isActive: true }
+                ]}/>
                 <div className="row alloy-card-row">
                     <div className="col-md-4">
                         <ProjectCard
