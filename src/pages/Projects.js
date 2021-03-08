@@ -1,6 +1,7 @@
 import React from 'react'
 import '../index.css';
 import Card from '../components/Card';
+import Hero from "../components/Hero";
 
 /* project pictures for thumbnails */
 import GatePicture from '../img/projects/gates/Gate_2/Gate_2_Picture_1.jpeg';
@@ -10,11 +11,15 @@ import KitchenPicture from '../img/projects/kitchen/Kitchen 1/Kitchen_1_Image_1.
 import LandscapingPicture from '../img/projects/landscaping/Landscaping_1_Image_1.jpeg';
 import ShelvesClosetsPicture from '../img/projects/shelves_closets/ShelvesClosets_1_Image_1.jpeg'
 
+import HeroPicture from '../img/hero.jpg'
+
 const Projects = () => (
   <div>
-    <div className="hero">
-      <h1>Projects</h1>
-    </div>
+    <Hero
+      backgroundImageUrl={HeroPicture}
+      title="Projects"
+      headerStyle={{color: '#fff',paddingLeft:'0',borderLeft:'none'}}
+    />
     <div className="container lead">
       <div className="row alloy-card-row">
         <div className="col-md-4">

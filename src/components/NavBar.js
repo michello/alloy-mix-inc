@@ -16,9 +16,9 @@ const NavBar = ({theme: theme}) => {
       </Link>
       <div className="navbar-side">
         <Link to="/projects" className="nav-link">
-          Work
+          Projects
         </Link>
-        <Link to="/" className="nav-link">
+        <Link to="/contact" className="nav-link">
           Contact
         </Link>
       </div>

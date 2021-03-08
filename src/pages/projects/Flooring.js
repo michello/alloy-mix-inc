@@ -13,12 +13,15 @@ import Flooring_1_Picture_3 from '../../img/projects/flooring/flooring_1/Floorin
 import Flooring_2_Picture_1 from '../../img/projects/flooring/flooring_2/Flooring_2_Image_1.jpeg';
 import Flooring_2_Picture_2 from '../../img/projects/flooring/flooring_2/Flooring_2_Image_2.jpeg';
 
+import ProjectImage from "../../img/project.jpg"
+
 const BathroomProject = () => {
     return(
         <>
             <Hero
                 page="project"
                 title="Flooring"
+                backgroundImageUrl={ProjectImage}
                 headerStyle={{backgroundColor: '#fff'}}
             />
             <div className="container lead">

@@ -5,6 +5,8 @@ import { Breadcrumb, BreadcrumbItem, timeoutsShape } from "shards-react";
 
 import '../../styles/Project.css';
 
+import ProjectImage from "../../img/project.jpg"
+
 /* pictures of projects*/
 import ShelvesClosets_1_Picture_1 from '../../img/projects/shelves_closets/ShelvesClosets_1_Image_1.jpeg';
 import ShelvesClosets_1_Picture_2 from '../../img/projects/shelves_closets/ShelvesClosets_1_Image_2.jpeg';
@@ -13,8 +15,10 @@ import ShelvesClosets_1_Picture_3 from '../../img/projects/shelves_closets/Shelv
 const ShelvesClosetsProject = () => {
     return(
         <>
-            <Hero page="project"
+            <Hero
+                page="project"
                 title="Shelves and Closets"
+                backgroundImageUrl={ProjectImage}
                 headerStyle={{backgroundColor: '#fff'}}
             />
             <div className="container lead">

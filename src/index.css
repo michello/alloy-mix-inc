@@ -84,11 +84,12 @@ h2 {
 }
 
 .highlight {
-  background: #005997;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bolder;
-  color: #fff;
+  color: #005997;
   padding: 3px;
   font-style: italic;
+  border-bottom: 2px dotted #005997;
 }
 
 .emphasis {

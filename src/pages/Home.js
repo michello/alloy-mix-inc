@@ -1,6 +1,8 @@
 import React from 'react';
 
 import { Link } from "react-router-dom"
+import Hero from "../components/Hero"
+
 
 import ContructionPerson from '../img/construction-person.jpg';
 import Construction from '../img/construction.jpg';
@@ -8,23 +10,28 @@ import Gate_1_Picture_1 from '../img/projects/gates/Gate_1/Gate_1_Picture_1.jpeg
 import Kitchen_2_Picture_1 from '../img/projects/kitchen/Fume Hood/Fume_Hood_2_Image_1.jpeg';
 import ShelvesClosets_1_Picture_1 from '../img/projects/shelves_closets/ShelvesClosets_1_Image_1.jpeg';
 
+import ConstructionLanding from '../img/construction-landing-copy.jpg';
+
 import '../styles/Home.css';
 
 const Home = () => {
+  const subtitle1 = "General contractor, home improvement,"
+  const subtitle2 = "remodeling contractor, house renovation contractor"
+
   return(
     <>
-      <div className="hero">
-        <h1>Alloy Mix Inc<br/>
-        <h4>
-          General contractor, home improvement,<br/>
-          remodeling contractor, house renovation contractor
-        </h4>
-        </h1>
-      </div>
+      
+      <Hero
+        backgroundImageUrl={ConstructionLanding}
+        title="Alloy Mix Inc"
+        subtitle1={subtitle1}
+        subtitle2={subtitle2}
+        headerStyle={{color: '#fff', borderLeft: 'none'}}
+      />
       <div className="container lead" style={{paddingBottom: 0}}>
         <div className="row alloy-row">
           <div className="col-md-6 alloy-content">
-            <h1 className="title">
+            <h1>
               Alloy
             </h1>
             <h2>

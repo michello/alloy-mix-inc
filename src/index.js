@@ -12,6 +12,7 @@ import * as serviceWorker from './serviceWorker';
 
 import Home from './pages/Home';
 import Projects from './pages/Projects';
+import Contact from './pages/Contact';
 import InvalidPage from './pages/InvalidPage';
 
 import BathroomProject from './pages/projects/Bathroom';
@@ -28,6 +29,7 @@ const Routes = () => {
   return(
     <>
       <Route exact path="/" component={Home} />
+      <Route exact path="/contact" component={Contact} />
       <Route exact path="/projects" component={Projects} />
 
       {/* project page routing */}

@@ -4,6 +4,8 @@ import ProjectCard from '../../components/ProjectCard';
 
 import '../../styles/Project.css';
 
+import ProjectImage from "../../img/project.jpg"
+
 /* pictures of projects*/
 /* project 1 */
 import Kitchen_1_Picture_1 from '../../img/projects/kitchen/Kitchen 1/Kitchen_1_Image_1.jpeg';
@@ -22,6 +24,7 @@ const KitchenProject = () => {
             <Hero
                 page="project"
                 title="Kitchen"
+                backgroundImageUrl={ProjectImage}
                 headerStyle={{backgroundColor: '#fff'}}
             />
             <div className="container lead">

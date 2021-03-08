@@ -11,13 +11,15 @@ import Gate_1_Picture_2 from '../../img/projects/gates/Gate_1/Gate_1_Picture_2.j
 import Gate_1_Picture_3 from '../../img/projects/gates/Gate_1/Gate_1_Picture_3.jpeg';
 import Gate_2_Picture_1 from '../../img/projects/gates/Gate_2/Gate_2_Picture_1.jpeg';
 
+import ProjectImage from "../../img/project.jpg"
+
 const GateProject = () => {
     return(
         <>
             <Hero
-             
                 page="project"
                 title="Gate Installation and Design"
+                backgroundImageUrl={ProjectImage}
                 headerStyle={{backgroundColor: '#fff'}}
             />
             <div className="container lead">
