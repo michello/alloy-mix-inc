@@ -40,7 +40,7 @@ const Contact = () => {
         return(
             <FormspreeProvider project="mbjpnldn">
                 <Form onSubmit={handleSubmit}>
-                    <Form.Row controlId="formBasicEmail">
+                    <Form.Row controlId="formBasicEmail" className="mb-3">
                         <Col>
                             <Form.Label
                                 htmlFor="email"
@@ -58,12 +58,21 @@ const Contact = () => {
                             />
                         </Col>
                     </Form.Row>
-                    <Form.Row>
-                        <Col/>
+                    <Form.Row controlId="formBasicPhoneNumber" className="mb-3">
+                        <Col>
+                            <Form.Label
+                                htmlFor="telephone"
+                            >
+                                Phone Number
+                            </Form.Label>
+                        </Col>
                         <Col xs={9}>
-                            <Form.Text className="text-muted">
-                                We'll never share your email with anyone else.
-                            </Form.Text>
+                            <Form.Control
+                                id="telephone"
+                                type="telephone"
+                                name="telephone"
+                                placeholder="(555) 555-5555" 
+                            />
                         </Col>
                     </Form.Row>
                     <Form.Row controlId="exampleForm.ControlTextarea1">
@@ -80,6 +89,14 @@ const Contact = () => {
                                 as="textarea"
                                 placeholder="Enter inquiry." 
                                 rows={3} />
+                        </Col>
+                    </Form.Row>
+                    <Form.Row>
+                        <Col/>
+                        <Col xs={9}>
+                            <Form.Text className="text-muted">
+                                We'll never share your phone number and email with anyone else.
+                            </Form.Text>
                         </Col>
                     </Form.Row>
                     <Form.Row style={{paddingTop: '1em',}}>
