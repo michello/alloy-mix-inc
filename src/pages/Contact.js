@@ -1,16 +1,40 @@
 import React from 'react';
-import { Redirect } from 'react-router';
 import Hero from "../components/Hero";
 import { Button } from "shards-react";
 import Form from 'react-bootstrap/Form';
 import Col from 'react-bootstrap/Col';
 
-// import '../App.css'
 import ContactHeroImage from "../img/contact-us.jpg";
 import { FormspreeProvider, ValidationError, useForm } from '@formspree/react';
 
+import { FaPhoneSquare, FaLinkedinIn, FaEnvelope, FaMapMarkedAlt } from 'react-icons/fa';
+
+import '../styles/Contact.css';
+
 const Contact = () => {
     const [state, handleSubmit] = useForm('mbjpnldn');
+    const socialMedia = [
+        {
+            link: 'tel:917-803-9999',
+            icon: <FaPhoneSquare/>,
+            text: '917-803-9999',
+        },
+        {
+            link: 'https://www.linkedin.com/in/henry-lam-a2b7b879/',
+            icon: <FaLinkedinIn/>,
+            text: 'LinkedIn'
+        },
+        {
+            link: 'mailto:alloymixinc@gmail.com',
+            icon: <FaEnvelope/>,
+            text: 'alloymixinc@gmail.com'
+        },
+        {
+            link: 'https://www.google.com/maps/dir//4401+1st+Ave,+Brooklyn,+NY+11232/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x89c25abb01ed0787:0x42057045a68cd997?sa=X&ved=2ahUKEwiNnvz65KHvAhXnEVkFHbw8BE0QwwUwAHoECAMQAw',
+            icon: <FaMapMarkedAlt/>,
+            text: '4401 1st Avenue Brooklyn, NY 11232'
+        }
+    ]
 
     function ContactForm() {
         return(
@@ -30,7 +54,7 @@ const Contact = () => {
                                 id="email"
                                 type="email"
                                 name="email"
-                                placeholder="Enter email" 
+                                placeholder="Enter email." 
                             />
                         </Col>
                     </Form.Row>
@@ -54,6 +78,7 @@ const Contact = () => {
                                 type="inquiry"
                                 name="inquiry"
                                 as="textarea"
+                                placeholder="Enter inquiry." 
                                 rows={3} />
                         </Col>
                     </Form.Row>
@@ -73,13 +98,36 @@ const Contact = () => {
 
     }
 
-    // function SocialMediaLinks(){
-    //     return(
+    function SocialMediaLinks({links}) {
+        
+        return(
+            <ul className="social-media-links">
+                {links.map(({link, icon, text}) => {{
+                        return(
+                            <li>
+                                <div className="icon">
+                                    {icon}
+                                </div>
+                                <div className="link">
+                                    <a
+                                        className="social-media-link"
+                                        style={{color:'#5a6169',}}
+                                        target="_blank"
+                                        href={link}>
+                                        {text}
+                                    </a>
+                                </div>
+                                
+                            </li>
+                        )}
+                    }
+                )}
+            </ul>
+        )
+    }
 
-    //     )
-    // }
-
-    return(<>
+    return(
+        <>
         <Hero
             backgroundImageUrl={ContactHeroImage}
             title="Contact"
@@ -87,28 +135,18 @@ const Contact = () => {
         />
         <div className="container lead">
             <div className="row alloy-row">
-                <div className="col-md-4 alloy-content">
-                    <h4 className="title" style={{color: '#212529'}}>
+                <div className="col-md-4 alloy-content" style={{marginBottom:'4em'}}>
+                    <p className="title" style={{color: '#212529', marginBottom: '0'}}>
                         Stay connected with us:
-                    </h4>
-                    <ul>
-                        <li>
-                            Phone number: 917-803-9999
-                        </li>
-                        <li>
-                            Email: alloymixinc@gmail.com
-                        </li>
-                        <li>
-                            Address: 4401 1st Avenue Brooklyn, NY 11232
-                        </li>
-                    </ul>
+                    </p>
+                    <SocialMediaLinks links={socialMedia}/>
                 </div>
                 <div className="col-md-8 alloy-content">
                     <h1 style={{borderLeft: 0,paddingLeft:0}}>
                         We'd love to hear from you.
                     </h1>
                     <p className="title" style={{color: '#212529'}}>
-                        Contact us to get a quota or answers to any questions you may have!
+                        Please contact us with your questions and requests!
                     </p>
                     {state.succeeded
                         ? <>Thanks for reaching out! We'll get back to you soon.</>

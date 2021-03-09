@@ -1,0 +1,17 @@
+ul.social-media-links {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul.social-media-links .li {
+    display: block;
+    padding-bottom: 10px;
+}
+
+.social-media-links .icon {
+    padding-right: 10px;
+}
+
+.social-media-links .icon, .social-media-links .link {
+    display: inline;
+}
