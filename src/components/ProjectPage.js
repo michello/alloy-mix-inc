@@ -9,7 +9,7 @@ const ProjectPage = ({projects, info}) => {
     function ProjectSection({projects}) {
         return(
             <>
-                {projects.map((project, pictures, index) => (
+                {projects.map((project, index) => (
                     <div className="row alloy-card-row" key={index}>
                         <div className="col-md-4">
                             <ProjectCard
