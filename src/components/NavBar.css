@@ -5,6 +5,14 @@
   position: fixed;
 }
 
+.navbar-dark .navbar-toggler {
+  color: #fff;
+  border: none;
+  background: 0 0;
+}
+
+
+
 .navbar-side {
   display: flex;
 }
@@ -29,8 +37,12 @@ a:hover {
 }
 
 .clear {
-  background: none;
+  background:rgba(0,89,151,0.75);
   border: none;
   width: 100%;
   position:fixed;
+}
+
+a.nav-link.nav-item {
+  text-align: center;
 }

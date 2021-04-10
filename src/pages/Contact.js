@@ -68,6 +68,7 @@ const Contact = () => {
                         </Col>
                         <Col xs={9}>
                             <Form.Control
+                                sm="10"
                                 id="telephone"
                                 type="telephone"
                                 name="telephone"
@@ -116,7 +117,6 @@ const Contact = () => {
     }
 
     function SocialMediaLinks({links}) {
-        
         return(
             <ul className="social-media-links">
                 {links.map(({link, icon, text}) => {{
